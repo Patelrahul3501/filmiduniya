@@ -12,28 +12,28 @@ header{
 header h1{
     color: red;
 }
-ul{
+.navbar ul{
     list-style-type: none;
     float: left;
     margin-top: 25px;
-    padding:20px;
+    padding:10px;
 }
-ul li{
+.navbar ul li{
    display: block;
-   padding-top: 50px;
+   padding-top: 40px;
    padding-left: 10px;
 }
-ul li a{
+.navbar ul li a{
   text-decoration: none;
   color: white;
   padding: 5px 20px;
   transition: 0.6s ease ;
 }
-ul li a:hover{
+.navbar ul li a:hover{
     background-color: white;
     color: black;
 }
-ul li .active a{
+.navbar ul li .active a{
     background-color: white;
     color: #000;
 }

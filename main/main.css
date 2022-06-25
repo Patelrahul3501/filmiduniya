@@ -145,4 +145,56 @@ header .logo{
 .body .hulk a:hover{
     color: red;
 }
+.body .ironman img{
+    position: absolute;
+    top: 40%;
+    left: 90%;
+    margin-left: 10px;
+    transform: translate(-50%,-50%);
+    width: 8%;
+}
+.body .ironman a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 6px 20px;
+    border: 1px solid black transparent;
+    transition: 0.6s ease ;
+    margin-left: 60px;
+    position: absolute;
+    color: white;
+    top: 60%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    width: 10%;
+}
+.body .ironman a:hover{
+    color: red;
+}
+.body .moonknight img{
+    position: absolute;
+    top: 80%;
+    left: 90%;
+    margin-left: 10px;
+    transform: translate(-50%,-50%);
+    width: 8%;
+}
+.body .moonknight a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    padding: 6px 20px;
+    border: 1px solid black transparent;
+    transition: 0.6s ease ;
+    margin-left: 40px;
+    position: absolute;
+    color: white;
+    top: 100%;
+    left: 90%;
+    transform: translate(-50%,-50%);
+    width: 10%;
+}
+.body .moonknight a:hover{
+    color: red;
+}
 
