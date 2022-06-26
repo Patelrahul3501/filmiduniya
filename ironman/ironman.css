@@ -172,3 +172,114 @@ header h1{
     transform: translate(-50%,-50%);
     width: 15%;
 }
+@media (max-width:400px){
+    .button ul{
+        list-style-type: none;
+        float: right;
+        padding:5px;
+    }
+    .button ul li{
+       display: block;
+       padding-right: 5px;
+    }
+    .button ul li a{
+      text-decoration: none;
+      color: white;
+      padding: 2px 1px;
+      transition: 0.6s ease ;
+    }
+    .button ul li a:hover{
+        color: black;
+        background-color: white;
+    }
+    .main img{
+        display: inline-block;
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        margin-left: 30px;
+        transform: translate(-50%,-50%);
+        width: 15%;
+    }
+    .main1 img{
+        display: inline-block;
+        position: absolute;
+        top: 40%;
+        left: 30%;
+        margin-left: 30px;
+        transform: translate(-50%,-50%);
+        width: 15%;
+    }
+    .main2 img{
+        display: inline-block;
+        position: absolute;
+        top: 40%;
+        left: 50%;
+        margin-left: 30px;
+        transform: translate(-50%,-50%);
+        width: 15%;
+    }
+    .main3 img{
+        display: inline-block;
+        position: absolute;
+        top: 40%;
+        left: 70%;
+        margin-left: 30px;
+        transform: translate(-50%,-50%);
+        width: 15%;
+    }
+    .main4 img{
+        display: inline-block;
+        position: absolute;
+        top: 40%;
+        left: 90%;
+        margin-left: 30px;
+        transform: translate(-50%,-50%);
+        width: 15%;
+    }
+    .main10 img{
+        display: inline-block;
+        position: absolute;
+        top: 80%;
+        left: 10%;
+        margin-left: 30px;
+        transform: translate(-50%,-50%);
+        width: 14%;
+    }
+    .main11 img{
+        display: inline-block;
+        position: absolute;
+        top: 80%;
+        left: 30%;
+        margin-left: 30px;
+        transform: translate(-50%,-50%);
+        width: 14%;
+    }
+    .main12 img{
+        display: inline-block;
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        margin-left: 30px;
+        transform: translate(-50%,-50%);
+        width: 14%;
+    }
+    .main13 img{
+        display: inline-block;
+        position: absolute;
+        top: 80%;
+        left: 70%;
+        margin-left: 30px;
+        transform: translate(-50%,-50%);
+        width: 14%;
+    }
+    .main14 img{
+        display: inline-block;
+        position: absolute;
+        top: 80%;
+        left: 90%;
+        margin-left: 30px;
+        transform: translate(-50%,-50%);
+        width: 14%;
+    }
+}
