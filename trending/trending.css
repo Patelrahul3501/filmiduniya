@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  .navbar{
+    top: 0;
+    width: 100%;
+    height: 60px; 
+    border-bottom: 2px solid white;
+  }
+  .navbar.active{
+    color: black;
+    background-color: white;
+    border-bottom: 2px solid black;
+  }
+.back{
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 30px;
+    padding-top: 15px;
+}
+.back i{
+    color: white;
+    cursor: pointer;
+}
+.search{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+    margin-bottom: 30px;
+}
+.search i{
+    cursor: pointer;
+    color: white;
+}
+.search input{
+    border-radius: 25px;
+    width: 300px;
+    font-size: 1.2rem;
+    top: 0;
+    text-align: center;
+    outline: none;
+    border: none;
+}
+.kyu{
+
+}
+.list{
+    height: 100vh;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-column-gap: 20px;
+    padding: 2em 0;
+}
+.title{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 110px;
+    color: #4dbf00;
+}
+.container{
+    width: 100%;
+    background-color: #151515;
+    min-height: calc(60vh - 200px);
+    color: white;
+}
+body{
+    background-color: #151515;
+}
+.toggle{
+    width: 40px;
+    height: 20px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    float: right;
+    margin-right: 40px;
+    bottom: 22px;
+  }
+.toggle-icon{
+    color: yellow;
+  }
+.toggle-ball{
+    width: 18px;
+    height: 18px;
+    background-color: black;
+    position: absolute;
+    right: 1px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 1s ease all;
+  }
+  .movie-container{
+   max-width: 18em;
+   height: 310px;
+   margin-bottom: 1em;
+   padding: 1em;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20px;
+  }
+  .movie-container.active{
+    border: 2px solid black;
+  }
+  .movie-container a{
+    text-decoration: none;
+    color: white;
+  }
+  .movie-container a.active{
+    text-decoration: none;
+    color: black;
+  }
+  .movie-container img{
+   max-width: 100%;
+   object-fit: contain;
+   height: 15em;
+   border-radius: 20px;
+  }
+  .movie-container img:hover{
+    padding: 10px 5px;
+    transition: .4s ease-in-out;
+    border-radius: 20px;
+  }
+  .movie-container a:hover{
+    color: #4dbf00;
+  }
+
+
+
+  .toggle.active{
+    background-color: black;
+  }
+  .toggle-ball.active{
+    background-color: white;
+    transform: translateX(-20px);
+  }
+  .container.active{
+    background-color: white;
+    color: black;
+}
+body.active{
+    background-color: white
+}
+.search i.active{
+    color: black;
+}
+.back i.active{
+    color: black;
+}
+.title h1.active{
+  color: black;
+}
+.search input.active{
+  border: 1px solid black;
+}
+
+
+
+
+
+@media only screen and (max-width: 940px){
+
+    .container{
+        min-height: calc(200vh - 200px);
+        color: white;
+      }
+      .navbar{
+        top: 0;
+        width: 300%;
+        height: 60px;
+        color: white;
+        background-color: black;
+      }
+    .back{
+        font-size: 1.5rem;
+        cursor: pointer;
+        margin-left: 30px;
+        padding-top: 15px;
+    }
+    .search{
+        position: absolute;
+        right: -480px;
+        top: 20px;
+        margin-bottom: 30px;
+    }
+    .search input{
+      border-radius: 25px;
+      width: 280px;
+      font-size: 1.2rem;
+      top: 0;
+      text-align: center;
+      outline: none;
+      border: none;
+  }
+    .kyu{
+        padding-right: 0px;
+    }
+    .toggle{
+      width: 40px;
+      height: 20px;
+      background-color: white;
+      border-radius: 30px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      position: relative;
+      float: right;
+      margin-right: 40px;
+      bottom: 22px;
+    }
+  .toggle-icon{
+      color: yellow;
+    }
+  .toggle-ball{
+      width: 18px;
+      height: 18px;
+      background-color: black;
+      position: absolute;
+      right: 1px;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: 1s ease all;
+    }
+    .movie-container{
+      max-width: 18em;
+      height: 110px;
+      margin-bottom: 1em;
+      padding: 1em;
+       border: 2px solid white;
+       border-radius: 10px;
+       text-align: center;
+       text-decoration: none;
+       margin-left: 20px;
+     }
+     .movie-container img{
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+     }
+     .movie-container h2{
+      text-decoration: none;
+      color: white;
+      position: relative;
+      top: 10px;
+    }
+    .movie-container h2.active{
+      color: black;
+    }
+    .list{
+      height: 100vh;
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
+      grid-column-gap: 50px;
+      padding: 2em 0;
+  }
+   
+}
