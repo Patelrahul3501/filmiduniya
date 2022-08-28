@@ -35,7 +35,7 @@ wrapper.addEventListener('mousemove', function (e) {
 
 
 const ball = document.querySelector(".toggle-ball");
-const items = document.querySelectorAll(".contact i,.contact,.review,.trailor h1,.download i,.back i,.discription p,.discription h1,.trailor-container,.title12 h3,.f1-title h1,.f1-title i,.kyu,.f2-title a,.f2-title,.f1-title,.wrapper2,.wrapper1,.wrapper,body,.menu ul li a,.container,.movie-list-title,.navbar,.toggle,.toggle-ball,.movie-list-wrapper,.movie-list-wrapper1");
+const items = document.querySelectorAll(".review button,.review textarea,.contact i,.contact,.review,.trailor h1,.download i,.back i,.discription p,.discription h1,.trailor-container,.title12 h3,.f1-title h1,.f1-title i,.kyu,.f2-title a,.f2-title,.f1-title,.wrapper2,.wrapper1,.wrapper,body,.menu ul li a,.container,.movie-list-title,.navbar,.toggle,.toggle-ball,.movie-list-wrapper,.movie-list-wrapper1");
 
 
 ball.addEventListener("click",()=>{

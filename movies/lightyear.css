@@ -317,8 +317,15 @@ background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 
 }
 
 
-
-
+.review button.active{
+  color: black;
+  background-color: white;
+  border: 2px solid black;
+}
+.review textarea.active{
+  background-color: white;
+  color: black;
+}
 .toggle.active{
   background-color: black;
 }
@@ -388,4 +395,96 @@ body.active{
 }
 .trailor h1.active{
   color: black;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 940px){
+
+video{
+  width: 400%;
+  height: 700px;
+}
+.container{
+  background-color: #151515;
+  width: 350%;
+  height: 50%;
+  color: white;
+}
+.discription{
+  width: 350%;
+  height: 100px;
+  position: absolute;
+  top: 900px;
+}
+.download i{
+  position: absolute;
+  top: 880px;
+  right: -1000px;
+}
+.discription h1{
+  position: relative;
+  top: -30px;
+}
+.discription p{
+  position: relative;
+  top: 10px;
+}
+.title12{
+position: absolute;
+top: 1600px;
+left: 40px;
+font-size: 2.8rem;
+}
+.wrapper{
+  width: 390%;
+  height: 500px;
+  position: absolute;
+  top: 1600px;
+  grid-gap: 8.5rem;
+}
+.wrapper img{
+  width: 150%;
+  height: 200%;
+}
+.review{
+  position: relative;
+  top: 2350px;
+  font-size: 2.9rem;
+  left: 90px;
+}
+.review button{
+ width: 130px;
+ height: 50px;
+ position: relative;
+ right: 310px;
+}
+.contact{
+  position: relative;
+  left: 90px;
+  top: 2540px;
+  font-size: 2.9rem;
+}
+.trailor{
+  width: 150%;
+  position: absolute;
+  top: 150px;
+  left: 0px;
+  font-size: 1.2rem;
+}
+.trailor img{
+  width: 150%;
+  height: 250%;
+}
+.trailor-container{
+  width: 500px;
+  height: 380px;
+}
+
+
+
 }
